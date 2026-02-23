@@ -62,14 +62,50 @@ app.run(debug=True)
 
 ## 6. AI Prompt Journal
    
-Prompt Used:
+### Prompt 1:
+**Prompt Used:** 
 "How do I create a simple Flask web application in Python?"
 
-Response Summary:
+**AI Response Summary:**
 The AI provided step-by-step instructions for installing Flask and creating a minimal application.
 
-Evaluation:
+**Evaluation:**
 The prompt helped me understand how Flask works and quickly generate working code.
+
+### Prompt 2
+**Prompt Used:**  
+"How do I install Flask using pip in Visual Studio Code?"
+
+**AI Response Summary:**  
+The AI explained how to open the terminal in VS Code and install Flask using the command pip install flask.
+
+**Evaluation:**  
+This prompt was helpful in setting up the project environment and ensuring Flask was installed correctly.
+
+### Prompt 3
+**Prompt Used:**  
+"How do I create a route in Flask that displays Hello World?"
+
+**AI Response Summary:**  
+The AI explained how to use the @app.route("/") decorator to define a homepage route and return a simple text message.
+
+**Evaluation:**  
+This prompt helped me understand how routing works in Flask and how the application responds to browser requests.
+
+### Prompt 4
+**Prompt Used:**  
+"How do I run a Flask application locally?"
+
+**AI Response Summary:**  
+The AI suggested running the Python file using python app.py and then accessing the application through `http://127.0.0.1:5000/` in the browser.
+
+**Evaluation:**  
+This prompt helped me test and verify that my application was working correctly.
+
+---
+
+### Reflection
+Using AI prompts significantly improved my learning process by providing quick explanations and troubleshooting steps. It helped me understand Flask concepts faster and resolve errors efficiently during development.
 
 ## 7. Common Issues & Fixes
 
